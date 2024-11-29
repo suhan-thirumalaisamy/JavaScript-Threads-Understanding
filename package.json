@@ -1,0 +1,22 @@
+{
+  "name": "javascript-threads",
+  "version": "1.0.0",
+  "description": "Understading of Non-blocking I/O operations of Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "npx rimraf ./build",
+    "build": "npx tsc",
+    "start": "node build/index.js",
+    "start:dev": "NODE_ENV=dev npx nodemon"
+  },
+  "author": "Suhan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
