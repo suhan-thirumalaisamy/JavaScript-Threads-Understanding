@@ -13,10 +13,14 @@
   "author": "Suhan",
   "license": "ISC",
   "dependencies": {
+    "@types/express": "^5.0.0",
+    "dotenv": "^16.4.5",
     "express": "^4.21.1"
   },
   "devDependencies": {
     "@types/node": "^22.10.1",
+    "nodemon": "^3.1.7",
+    "rimraf": "^6.0.1",
     "typescript": "^5.7.2"
   }
 }
