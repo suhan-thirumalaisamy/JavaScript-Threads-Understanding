@@ -1,5 +1,5 @@
-// import { parentPort } from "node:worker_threads";
-const { parentPort } =  require("worker_threads");
+import { parentPort } from "node:worker_threads";
+// const { parentPort } =  require("worker_threads");
 
 function sendCounterToMainThread(){
     let counter = 0;

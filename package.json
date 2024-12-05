@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Understading of Non-blocking I/O operations of Node",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "npx rimraf ./build",
